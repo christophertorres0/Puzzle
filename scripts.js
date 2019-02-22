@@ -23,3 +23,4 @@ el.src = "Images/Goblin.PNG";
 // do nothing
 
 }
+}
