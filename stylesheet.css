@@ -8,13 +8,13 @@ display: block;
 .green {
 display:Flex;
 width: 100%;
-height: 66%;
+height: calc(100%/2);
 background-color: black;
 }
 
 .blue {
 		display: block;
-		height:40%;
+		height:50%;
 		width:100%;
 		background-color: #002244;
 }
@@ -93,5 +93,6 @@ max-width: 80%;
 .pointer:hover {
 cursor: crosshair;
 }
+
 
 
