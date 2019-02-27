@@ -1,26 +1,67 @@
+// GOBLIN --> PROWLER--> KINGPEN //
 function nextImage(el){
 
-if (el.src.match("Images/Goblin.png")){
+if (el.src.match("Images/Goblin.PNG")){
 
 el.src = "Images/prowler.gif";
 
-// if the image is a cherry, change it to a lemon!
-
 } else if (el.src.match("Images/prowler.gif")){
 
-el.src = "Images/kingpen.png";
+el.src = "Images/kingpen.PNG";
 
-// if the image is a lemon, change it to an orange!
 
-} else if (el.src.match("Images/kingpen.png")){
+} else if (el.src.match("Images/kingpen.PNG")){
 
-el.src = "Images/Goblin.png";
+el.src = "Images/Goblin.PNG";
 
-// if the image is an orange, change it to a cherry!
 
 } else {
 
 // do nothing
 
 }
+}
+
+
+// PROWLER --> GOBLIN --> KINGPEN //
+function nextImage2(el){
+
+if (el.src.match("Images/prowler.gif")){
+
+el.src = "Images/Goblin.PNG";
+
+} else if (el.src.match("Images/Goblin.PNG")){
+
+el.src = "Images/kingpen.PNG";
+
+} else if (el.src.match("Images/kingpen.PNG")){
+
+el.src = "Images/prowler.gif";
+
+} else {
+
+}
+}
+
+// KINGPEN --> GOBLIN --> PROWLER //
+function nextImage3(el){
+
+if (el.src.match("Images/kingpen.PNG")){
+
+el.src = "Images/Goblin.PNG";
+
+} else if (el.src.match("Images/Goblin.PNG")){
+
+el.src = "Images/prowler.gif";
+
+} else if (el.src.match("Images/prowler.gif")){
+
+el.src = "Images/kingpen.PNG";
+
+}
+ else {
+
+
+}
+
 }
