@@ -1,7 +1,7 @@
 // GOBLIN --> PROWLER--> KINGPEN //
 function nextImage(el){
 
-if (el.src.match("Images/goblin.png")){
+if (el.src.match("Images/Goblin.png")){
 
 el.src = "Images/prowler.gif";
 
@@ -12,7 +12,7 @@ el.src = "Images/kingpen.png";
 
 } else if (el.src.match("Images/kingpen.png")){
 
-el.src = "Images/goblin.png";
+el.src = "Images/Goblin.png";
 
 
 } else {
@@ -28,9 +28,9 @@ function nextImage2(el){
 
 if (el.src.match("Images/prowler.gif")){
 
-el.src = "Images/goblin.png";
+el.src = "Images/Goblin.png";
 
-} else if (el.src.match("Images/goblin.png")){
+} else if (el.src.match("Images/Goblin.png")){
 
 el.src = "Images/kingpen.png";
 
@@ -48,9 +48,9 @@ function nextImage3(el){
 
 if (el.src.match("Images/kingpen.png")){
 
-el.src = "Images/goblin.png";
+el.src = "Images/Goblin.png";
 
-} else if (el.src.match("Images/goblin.png")){
+} else if (el.src.match("Images/Goblin.png")){
 
 el.src = "Images/prowler.gif";
 
