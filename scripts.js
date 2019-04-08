@@ -1,4 +1,3 @@
-
 a = document.getElementById("one");
 b = document.getElementById("two");
 c = document.getElementById("three");
@@ -138,10 +137,9 @@ el.src = "Images/pp.png";
 
 function playSound() {
 	document.getElementById("you-win").play();
-	// when the Completed button is clicked, the gif and sunflower song will appear//
+	// when the JACKPOT! button is clicked, play the slot machine sound
 }
 
-//Checkyes function checks images in order davis.png, pp.png, then uncleben.png 
 function checkYes() {
   if (c.src.match("Images/davis.png") && a.src.match("Images/pp.png") && b.src.match("Images/uncleben.png")){
     alert("next section");
@@ -157,7 +155,6 @@ function playSound() {
 	// when the JACKPOT! button is clicked, play the slot machine sound
 }
 
-//checkYes2 checks heros and villains in order prowler.gif, goblin.png, kingpen.pen 
 function checkYes2() {
   if (e.src.match("Images/prowler.gif") && f.src.match("Images/Goblin.png") && g.src.match("Images/kingpen.png")){
     alert("completed");
@@ -167,7 +164,6 @@ function checkYes2() {
     }
 }
 
-//finalcheck first hides image "sunflower.gif" until order davis.png, pp.png, uncleben.png the mentors and hero section is checked, then transfers to check heros and villans section with id="spider" 
 function finalCheck() {
   if (c.src.match("Images/davis.png") && a.src.match("Images/pp.png") && b.src.match("Images/uncleben.png") && e.src.match("Images/prowler.gif") && f.src.match("Images/Goblin.png") && g.src.match("Images/kingpen.png")){
     n.classList.remove("hideimage");
@@ -180,7 +176,6 @@ function finalCheck() {
   }
 }
 
-//function redirect links "https://angelaflo.github.io/final_es/" to transfers to next page once puzzle passed 
 function redirect(){
   document.location.href = "https://angelaflo.github.io/final_es/"
 }
