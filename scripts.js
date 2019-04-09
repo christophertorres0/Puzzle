@@ -142,7 +142,7 @@ function playSound() {
 
 //Checkyes function checks images in order davis.png, pp.png, then uncleben.png
 function checkYes() {
-  if (c.src.match("Images/davis.png") && a.src.match("Images/pp.png") && b.src.match("Images/uncleben.png")){
+  if (c.src.match("Images/davis.png") && a.src.match("Images/pp-3.png") && b.src.match("Images/uncleben.png")){
     alert("next section");
   }
   else {
@@ -168,7 +168,7 @@ function checkYes2() {
 
 //finalcheck first hides image "sunflower.gif" until order davis.png, pp.png, uncleben.png the mentors and hero section is checked, then transfers to check heros and villans section with id="spider"
 function finalCheck() {
-  if (c.src.match("Images/davis.png") && a.src.match("Images/pp.png") && b.src.match("Images/uncleben.png") && e.src.match("Images/prowler.gif") && f.src.match("Images/Goblin.png") && g.src.match("Images/kingpen.png")){
+  if (c.src.match("Images/davis.png") && a.src.match("Images/pp-2.png") && b.src.match("Images/uncleben.png") && e.src.match("Images/prowler.gif") && f.src.match("Images/Goblin.png") && g.src.match("Images/kingpen.png")){
     n.classList.remove("hideimage");
     mySound.play();
     setTimeout(redirect, 2500);
