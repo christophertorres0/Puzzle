@@ -142,7 +142,7 @@ function playSound() {
 
 //Checkyes function checks images in order davis.png, pp.png, then uncleben.png
 function checkYes() {
-  if (c.src.match("Images/davis.png") && a.src.match("Images/pp-3.png") && b.src.match("Images/uncleben.png")){
+  if (c.src.match("Images/davis.png") && a.src.match("Images/pp-2.png") && b.src.match("Images/uncleben.png")){
     alert("next section");
   }
   else {
